@@ -11,9 +11,9 @@ result = ""
 #if the letter in text is upper case turn to lower case
 for letters in text:
     if letters in uppercase_letters:
-        for alphabet in range(len(uppercase_letters)):
-            if uppercase_letters[alphabet] == letters:
-                result += lowercase_letters[alphabet]
+        for iteration in range(len(uppercase_letters)):
+            if uppercase_letters[iteration] == letters:
+                result += lowercase_letters[iteration]
     else:
         result += letters
 
