@@ -11,6 +11,7 @@ spaces_count = int(input("How many: "))
 
 result = text + (spaces_with*(spaces_count - len(text)))
 
+#the | is an indicator for the amount of spaces there is
 print(result + "|")
 
 
