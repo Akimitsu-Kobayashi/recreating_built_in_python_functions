@@ -9,11 +9,15 @@ spaces_with = input("space with: ")
 #ask the count yo br centered
 space_count = int(input("How many: "))
 
+#calculate spaces
 all_spaces = space_count - len(text)
 
-left_spacing = all_spaces//2
+#left and right spacing
+left_spacing = all_spaces // 2
 right_spacing = all_spaces - left_spacing
 
-result = spaces_with*left_spacing + text + spaces_with*right_spacing
+#formats the spacing 
+result = (spaces_with*left_spacing) + text + (spaces_with*right_spacing)
 
+#prints the centered text
 print(result)
